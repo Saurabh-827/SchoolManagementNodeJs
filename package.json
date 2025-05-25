@@ -1,0 +1,25 @@
+{
+	"name": "schoolmanagementnodejs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"mysql2": "^3.14.1",
+		"sequelize": "^6.37.7"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10",
+		"sequelize-cli": "^6.6.3"
+	}
+}
