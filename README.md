@@ -106,9 +106,11 @@ Easily add new schools and retrieve a list of schools sorted by proximity to a u
     ...
   ]
   ```
+---
+- **🌐 Live Example:**  
+  [https://schoolmanagementnodejs.onrender.com/listSchools?latitude=28.6&longitude=77.2](https://schoolmanagementnodejs.onrender.com/listSchools?latitude=28.6&longitude=77.2)
 
 ---
-
 
 ## 🌐 Deployment
 
