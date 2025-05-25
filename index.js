@@ -1,5 +1,6 @@
 const db = require("./models");
 const express = require("express");
+require("dotenv").config();
 const schoolRoutes = require("./routes/schoolRoutes");
 
 const app = express();
@@ -12,6 +13,7 @@ db.sequelize
 	.then(() => console.log("✅ Database synced"))
 	.catch((err) => console.error("❌ DB sync error:", err));
 
-app.listen(3000, () => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
 	console.log("🚀 Server running on port 3000");
 });
